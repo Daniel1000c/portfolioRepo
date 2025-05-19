@@ -19,3 +19,35 @@
 .bxl-github:hover {
     color: #add8e6;
 }
+/************************End of Header Formatting************************/
+
+/************************Footer Formatting************************/
+/*Format footer p tag*/
+footer p {
+    text-align: center;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+/*Format terms and policy containers*/
+.terms-and-policy {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+
+/*Format terms and policy links*/
+.terms-and-policy a {
+    text-decoration: none;
+    color: lightgray;
+    transition: 0.5s ease;/*Transition Hover*/
+}
+
+/*Format terms and policy links hover*/
+.terms-and-policy a:hover {
+    color: #000;
+}
+/************************End of Footer Formatting************************/
