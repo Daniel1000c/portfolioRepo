@@ -1,0 +1,21 @@
+/************************General Formatting************************/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/************************End of General Formatting************************/
+
+/************************Header Formatting************************/
+
+/*Format git hub icon*/
+.bxl-github {
+    font-size: 3rem;
+    color: #000;
+    transition: 0.5s ease;/*Transition Hover*/
+}
+
+/*Format github icon hover*/
+.bxl-github:hover {
+    color: #add8e6;
+}
