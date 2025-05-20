@@ -1,7 +1,8 @@
 </main>
     <footer>
+         <hr>
         <div class="container">
-            <hr>
+           
             <p>&copy; <?php echo date('Y'); ?> Daniel Velez. All Rights Reserved.</p>   
             
             <!--Terms and policy link container-->
