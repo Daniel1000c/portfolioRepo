@@ -1,16 +1,52 @@
+/************************Font Face Formatting************************/
+
+/*Varela Round*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/*Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/************************End of Font Face Formatting************************/
+
 /************************General Formatting************************/
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+/*Root Formatting*/
+:root {
+    --general-font: 'Roboto', sans-serif;
+    --nav-link-font: 'Varela Round', sans-serif;
+    --general-site-color: #7F55B1;
+}
 /************************End of General Formatting************************/
 
 /************************Header Formatting************************/
 
+/*Format navbar brand*/
+.navbar-brand {
+    font-family: var(--nav-link-font);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*Format navbar span*/
+.navbar-brand span {
+    color: var(--general-site-color);
+}
+
+/*Format navigation links*/
+.navbar-nav .nav-link {
+    font-family: var(--nav-link-font);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 /*Format git hub icon*/
 .bxl-github {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #000;
     transition: 0.5s ease;/*Transition Hover*/
 }
@@ -21,7 +57,57 @@
 }
 /************************End of Header Formatting************************/
 
+/************************Section Formatting************************/
+
+/***Section General Formatting***/
+section {
+    padding: 20px 0px;
+}
+
+/***Contact Section Formatting***/
+
+/*Format contact container*/
+.contact {
+    background-color: var(--general-site-color);
+    text-align: center;
+}
+
+/*Format contact heading*/
+.contact h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: var(--general-font);
+    letter-spacing: 2px;
+}
+
+/*Format contact text*/
+.contact p {
+    color: #f1f4f8;
+    margin: 10px 0 25px 0;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+/*Format contact link*/
+.contact a{
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 100px;
+    color: var(--general-site-color);
+    font-weight: bold;
+}
+/************************End of Section Formatting************************/
+
 /************************Footer Formatting************************/
+
+/*Format footer background*/
+footer {
+    padding: 20px 0px;
+    background-color: #f1f4f8;
+}
+
 /*Format footer p tag*/
 footer p {
     text-align: center;
