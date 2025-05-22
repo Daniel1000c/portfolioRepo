@@ -3,7 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Porfolio</title>
+    <?php if(!empty($pageTitle)): ?>
+        <title>Portfolio &bull; <?php echo $pageTitle; ?></title>
+    <?php else: ?>
+        <title>Portfolio</title>
+    <?php endif; ?>
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"><!--Link to boxicons-->
