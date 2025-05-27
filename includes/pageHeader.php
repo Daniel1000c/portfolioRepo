@@ -7,7 +7,7 @@ if(empty($backgroundImage)) {
 }
 
 ?>
-<section class="pageHeader" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<?php echo $backgroundImage; ?>); background-size: cover; background-position: center;">
+<section class="pageHeader" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(<?php echo $backgroundImage; ?>); background-size: cover; background-position: center;">
     <div class="container">
         <h2><?php echo $pageTitle; ?></h2>
     </div>
