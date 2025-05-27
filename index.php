@@ -20,6 +20,16 @@
     </div>
 </section>
 
+
+<!--Services Section-->
+<section class="services">
+    <div class="container">
+        <h6>Other Features</h6>
+        <h1>Our Services</h1>
+        <p>Turning Ideas into Interactive, Scalable Web Experiences.</p>
+    </div>
+</section>
+
 <?php
     //Include contact.php
     require 'includes/contactSection.php';
