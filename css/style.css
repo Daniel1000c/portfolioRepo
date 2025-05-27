@@ -156,6 +156,43 @@ section {
     color: var(--general-site-color);
 }
 
+/***Services Section Formatting***/
+.services {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+/*Format services h6 tag*/
+.services h6 {
+    display: inline-block;
+    width: 150px;
+    padding: 2px 0px;
+    border-radius: 50px;
+    border: 1px solid var(--general-site-color);
+    background-color: #E9DCF1;
+    color: var(--general-site-color);
+    letter-spacing: 1px;
+}
+
+/*Format services h1 tag*/
+.services h1 {
+    color: var(--general-site-color);
+    font-size: 2.5rem;
+    font-family: var(--general-font);
+    letter-spacing: 2px;
+}
+
+/*Format services p tag*/
+.services p {
+    color: var(--general-site-color);
+    margin: 10px 0 25px 0;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
 /***Contact Section Formatting***/
 
 /*Format contact container*/
