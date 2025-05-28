@@ -227,6 +227,116 @@ section {
     color: var(--general-site-color);
     font-weight: bold;
 }
+
+/***Contact us form section formatting****/
+
+/*Format contact us form container*/
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*Format contact us h2 tag*/
+.contactUs h2 {
+    color: var(--general-site-color);
+    font-size: 2rem;
+    font-family: var(--general-font);
+    letter-spacing: 2px;
+}
+
+/*Format contact us p tag*/
+.contactUs p {
+    color: var(--general-site-color);
+    margin: 10px 0 25px 0;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+/*Format contact info container*/
+.contactInfo {
+   padding: 15px;
+}
+
+/*Format contact info title*/
+.contactInfo h3 {
+    text-align: left;
+    font-size: 1.7rem;
+    font-family: var(--general-font);
+    letter-spacing: 2px;
+}
+
+/*Format contact info p tag*/
+.contactInfo p {
+    text-align: left;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+/*Format contact information iframe google map*/
+.contactInfo iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/*Format information list*/
+.informationList {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+/*Format list links*/
+.informationList a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*Format form background*/
+form {
+    background-color: #f1f4f8;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/*Format form labels*/
+form label {
+    text-align: left;
+    display: block;
+    margin: 5px 0px;
+    font-size: 1rem;
+    font-family: var(--general-font);
+    letter-spacing: 1px;
+}
+
+/*Format form button*/
+form .btn {
+    display: inline-block;
+    width: 150px;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    background-color: var(--general-site-color);
+}
+
+/*Format form button hover*/
+form .btn:hover {
+    background-color: transparent;
+    border: 1px solid var(--general-site-color);
+    color: var(--general-site-color);
+}
 /************************End of Section Formatting************************/
 
 /************************Footer Formatting************************/
