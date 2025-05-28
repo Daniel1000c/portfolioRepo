@@ -36,9 +36,6 @@
                             <a class="nav-link <?php if(!empty($pageKey) && $pageKey == 'about') echo 'active'; ?>" href="about.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php if(!empty($pageKey) && $pageKey == 'service') echo 'active'; ?>" href="service.php">Services</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link <?php if(!empty($pageKey) && $pageKey == 'projects') echo 'active'; ?>" href="projects.php">Projects</a>
                         </li>
                         <li class="nav-item">
