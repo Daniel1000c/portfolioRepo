@@ -14,6 +14,11 @@
     box-sizing: border-box;
 }
 
+/*HTML Formatting*/
+html {
+    scroll-behavior: smooth;
+}
+
 /*Root Formatting*/
 :root {
     --general-font: 'Roboto', sans-serif;
@@ -193,6 +198,130 @@ section {
     font-size: 0.9rem;
 }
 
+
+/***About Section Formatting***/
+
+/*Format about us intro text container*/
+.introText {
+    text-align: center;
+}
+
+/*Format about us intro text h2 tag*/
+.introText h2 {
+    color: var(--general-site-color);
+    font-size: 2.5rem;
+    font-family: var(--general-font);
+    letter-spacing: 2px;
+}
+
+/*Format about us intro text p tag*/
+.introText p {
+    color: var(--general-site-color);
+    margin: 10px 0 25px 0;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+/*Format intro text learn more link*/
+.introText a {
+    text-decoration: none;
+    border: 2px solid var(--general-site-color);
+    border-radius: 100px;
+    padding: 10px 20px;
+    color: var(--general-site-color);
+    font-weight: bold;
+}
+
+
+/*Format about us column container*/
+.aboutUs .row .col-lg-6 {
+    margin: 10px 0px;
+}
+
+/*Format creator img container*/
+.creatorImg {
+    text-align: center;
+}
+
+/*Format about us creator img*/
+.aboutUs img {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/*Format about us span tag*/
+.aboutUs span {
+    color: var(--general-site-color);
+    font-weight: bolder;
+}
+
+/*Format about us text*/
+.creatorText h2 {
+    font-size: 2.5rem;
+    font-family: var(--general-font);
+    letter-spacing: 2px;
+}
+
+/*Format creator text p tag*/
+.creatorText p {
+    color: #878787;
+    margin: 10px 0 25px 0;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+/*Format creator text list items*/
+.creatorText ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/*Format creator text list items*/
+.creatorText ul li {
+   position: relative;
+   padding-left: 20px;
+   margin-bottom: 12px;
+   color: var(--general-site-color);
+   font-weight: bolder;
+}
+
+/*Format creator text list items*/
+.creatorText ul li::before {
+    content: "";
+    background-image: url(../images/arrow-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+/*Format skills section*/
+.Skills {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Format skills h2 tag*/
+.Skills h2 {
+    color: var(--general-site-color);
+    font-size: 2.5rem;
+    font-family: var(--general-font);
+    letter-spacing: 2px;
+}
+
+/*Format skills p tag*/
+.Skills p {
+    color: var(--general-site-color);
+    margin: 10px 0 25px 0;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
 /***Contact Section Formatting***/
 
 /*Format contact container*/
@@ -354,6 +483,75 @@ footer p {
     font-size: 1rem;
 }
 
+/*Format footer about container*/
+.footerAbout {
+    margin-bottom: 20px;
+}
+
+/*Format footer about text*/
+.footerAbout h3 {
+    padding-left: 10px;
+    font-size: 1rem;
+    font-family: var(--general-font);
+    letter-spacing: 2px;
+}
+
+/*Format footer about span*/
+.footerAbout span {
+    color: var(--general-site-color);
+}
+
+.footerAbout p {
+    text-align: left;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+/*Format social icons*/
+.socialIcons {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+/*Format social icons links*/
+.socialIcons a {
+    text-decoration: none;
+    color: var(--general-site-color);
+    background-color: #eaeaea;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+
+/*Format footer quick links*/
+.footerQuickLinks h3 {
+    padding-left: 10px;
+    font-size: 1rem;
+    font-family: var(--general-font);
+    letter-spacing: 2px;
+}
+
+/*Format footer quick links list*/
+.footerQuickLinks ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+/*Format footer quick links list links*/
+.footerQuickLinks ul a {
+    text-decoration: none;
+    color: var(--general-site-color);
+    transition: 0.5s ease;/*Transition Hover*/
+}
+
+/*Format footer quick links list links hover*/
+.footerQuickLinks ul a:hover {
+    color: #000;
+}
 /*Format terms and policy containers*/
 .terms-and-policy {
     display: flex;  
